@@ -1,0 +1,97 @@
+@import "./App.css";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid; */
+}
+body{
+    background-color: #f5ebdc;
+    z-index: -1;
+}
+img[alt="part"]{
+    position: absolute;
+    top:57px;
+    right: 210px;
+    height: 410px;
+    width: 730px;
+}
+.con1{
+    position: absolute;
+    top: 65px;
+    left: 130px;
+    width: 350px;
+    height: 386px;
+}
+.head{
+ font-family: "Concert One", sans-serif;
+  color: #502314;
+  font-weight: 800px;
+  font-size: 60px;
+  padding: 20px;
+}
+.btn{
+    font-size: 18px;
+    width: 300px;
+    height: 55px;
+    border-radius:50px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(214, 35, 0);
+    font-family: "Concert One", sans-serif;
+    font-weight: 400px;
+    border:1px solid rgb(214, 35, 0) ;
+}
+.btn:hover{
+    background-color: #af2105;
+}
+.btn1{
+    color:rgb(214, 35, 0) ;
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: #e9c6bf;
+}
+.ph{
+    background-color:#ebe2d3 ;
+    width: 98.9vw;
+    height: 530px;
+    position:relative;
+    top: 240vh;
+    z-index: -1;
+  }
+  img[alt="phone"]{
+    height: 474px;
+    width: 434px;
+    position: absolute;
+    top: -50px;
+    left: 200px;
+  }
+  svg{
+    width: 184px;
+    height: 53px;
+    margin-top: 10px;
+  }
+  .base{
+    text-align: center;
+    color: rgb(239, 234, 234);
+    padding-top: 13px;
+    position:relative;
+    top: 225vh;
+    left: 0px;
+    z-index: -1;
+    height: 120px;
+    background-color: #502314;
+    border: solid 2px;
+    font-family: "Concert One", sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+
+  }
+  .sace{
+    position: absolute;
+    left: 600px;
+    font-size: 25px;
+    padding: 10px;
+  }
